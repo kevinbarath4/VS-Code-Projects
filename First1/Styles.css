@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;600&display=swap');
+@font-face {
+    font-family: "Exo-ExtraBold";
+    
+}
+*{
+    box-sizing: border-box;
+    font-family: Exo;
+    color: #777;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.headermain{
+    background-color: rgba(0, 0, 0, .7);
+    background-blend-mode: multiply;
+    background-image: url(Images/Brub.jpg);
+    background-size: cover;
+    padding-bottom: 15px;
+}
+
+.navigation ul {
+    margin: 0;
+}
+
+.navigation li{
+    display: inline;
+}
+
+.navigation a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav{
+    text-align:center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255, .3)
+}
+
+.main-nav li{
+    padding: 0 5%
+}
+
+.navigation a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.title-name{
+    text-align: center;
+    margin: 1;
+    font-size: 3em
+    font-family: 
+}
+
+
+
+
+
