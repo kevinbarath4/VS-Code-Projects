@@ -1,2 +1,2 @@
-# VS-Code-Projects
- The journey that started here!
+# Web Developement Journey
+ The journey that started here! Commited (no pun intended) to learn as much as I can!
