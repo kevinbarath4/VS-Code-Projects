@@ -1,18 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;600&display=swap');
 @font-face {
-    font-family: "Exo-ExtraBold";
-    
+    font-family: "Exo-BoldItalic";
+    src: url("Fonts/Exo-BoldItalic.ttf") format(ttf)
 }
+
 *{
     box-sizing: border-box;
     font-family: Exo;
-    color: #777;
+    color: black;
 }
 
 html, body{
     margin: 0;
     padding: 0;
+    background-color: rgb(110,134,145);
 }
 
 .headermain{
@@ -49,18 +51,45 @@ html, body{
 .navigation a{
     display: inline-block;
     padding: .5em;
-    color: white;
+    color: lightblue;
     text-decoration: none;
 }
 
 .title-name{
     text-align: center;
     margin: 1;
-    font-size: 3em
-    font-family: 
+    font-size: 3em;
+    font-weight: normal;
+    color: lightblue;
 }
 
+.title-name-large{
+    font-size: 4em;
+}
 
+.contentsection{
+    margin: 1em
+}
 
+.container {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em
+}
 
+.section-header{
+    font-family: "Exo";
+    font-weight: normal;
+    font-size: 4em;
+    color: rgb(37,37,37)
+}
+
+.personal-image{
+    float: left;
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+    border-radius: 50%
+}
 
